@@ -90,11 +90,12 @@ body {
     text-transform: uppercase;
     margin-top: 10px;
 }
-
-.modal-review-bt {
-    position: relative;
-    display: inline-block;
-
+.modal-close-2 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+    display: block;
     padding: 7px 30px;
     color: #fff;
     background-color: #000;
@@ -118,14 +119,27 @@ body {
     text-align: center;
     padding-top: 55px;
 }
+.modal-review-bt {
+    position: relative;
+    display: inline-block;
+
+    padding: 7px 30px;
+    color: #fff;
+    background-color: #000;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
 .modal-review span{
     position: relative;;
     display: block;
-    font-size: 15px;
+    font-size: 17px;
     font-weight: 500;
 }
 .modal-review p {
-    font-size: 12px;
+    font-size: 14px;
 }
 /* 공통 요소 */
 .container {
